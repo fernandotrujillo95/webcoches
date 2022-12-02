@@ -1,0 +1,173 @@
+
+/**************************/
+/*		Estilos generales*/
+/************************/
+/***********************/
+
+*{
+
+box-sizing: border-box;
+}
+
+body, h1, h2, h3, ul, li, figure{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+	font-family: sans-serif;
+	color: #222;
+
+	background: url('../imagenes/lujazo.jpg')
+ no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+text-align: center;
+text-align: justify-all;
+}
+
+
+
+
+p{
+	line-height: 1.35em;
+}
+
+.contenedorPagina{
+	max-width: 900px;
+	margin: 0 auto;
+	background: #FAFAFA;
+
+}
+
+/**************************/
+/* Header principal y nav */
+/************************/
+/***********************/
+
+
+.contenedorPagina > header{
+  background: linear-gradient(90deg,#000, transparent),
+  url('../imagenes/bmw.jpg') 0/cover;
+}
+
+.logo{
+		padding: 1em;
+		color: #FFF;
+		font-size: 3em;
+		font-weight: bold;
+		width: 40rem;
+}
+
+nav ul{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 1em 0;
+	background-color: red;
+	
+}
+
+
+nav li{
+
+	list-style-type: none;
+	margin: 0.2em 1em;
+}
+
+nav a{
+	color: white;
+	font-weight: bold;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav a:hover{
+  color: #D5752A;
+
+}
+
+footer{
+
+	background-color: #DDDDDD;
+}
+
+
+nav{
+	display: flex;
+	width: 100%;
+	background-color: red;
+	flex-direction: row;
+	justify-content: center;
+	padding: 1rem;
+}
+
+
+
+
+.titulo{
+
+	font-family: MV Boli;
+	color: red;
+}
+
+.medida{
+
+	width: 100%;
+	height: 100%;
+}
+
+.azul{
+	color:blue;
+}
+
+.filaFormulario{
+			
+	padding:0.5em;
+	
+	background: white;
+}
+
+
+.alinearizquierda{
+
+	text-align: left;
+}
+
+
+.card{
+
+margin: 0 auto;
+
+}
+
+.card-text{
+
+	margin-top: 40px;
+
+}
+
+
+.img-fluid{
+
+
+}
+
+
+.botoncito{
+	margin-left: 770px;
+	
+}
+
+
+
+.btn{
+	margin-left: auto;
+}
+
+
+
